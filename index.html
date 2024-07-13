@@ -7,5 +7,46 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form class="container-left">
+        <p>Welcome please enter your names and press start</p>
+        <div>
+          <label for="player-one">Player 1 (X)</label>
+          <input
+            type="text"
+            name="player-one"
+            id="player-one"
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <label for="player-two">Player 2 (O)</label>
+          <input
+            type="text"
+            name="player-two"
+            id="player-two"
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <button type="button" class="start-button">Start</button>
+        </div>
+      </form>
+      <div class="container-right">
+        <div class="title">Tic Tac Toe</div>
+        <div class="gameboard">
+          <button data-row="0" data-column="0"></button>
+          <button data-row="0" data-column="1"></button>
+          <button data-row="0" data-column="2"></button>
+          <button data-row="1" data-column="0"></button>
+          <button data-row="1" data-column="1"></button>
+          <button data-row="1" data-column="2"></button>
+          <button data-row="2" data-column="0"></button>
+          <button data-row="2" data-column="1"></button>
+          <button data-row="2" data-column="2"></button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
